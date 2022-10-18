@@ -35,7 +35,7 @@ color: #2196F3;
 
 .studio {
 color: #000000;
-}
+} 
 
 /* .header-nav__list {
 position: absolute;
@@ -315,4 +315,180 @@ height: 648px;
 left: 0px;
 top: 1446px;
 background: #F5F4FA;
+}
+
+.team-title {
+    /* position: initial; */
+    /* width: 264px; */
+    height: 42px;
+    left: 668px;
+    top: 1540px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    /* letter-spacing: 0.03em; */
+    color: #212121;
+
+}
+.team-row {
+display: flex;
+}
+
+.team-card1 {
+/* position: absolute; */
+width: 270px;
+height: 368px;
+margin-left: 170px;
+top: 1632px;
+margin-right: 30px;
+background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+
+.team-card2 {
+/* position: absolute; */
+width: 270px;
+height: 368px;
+left: 515px;
+top: 1632px;
+margin-right: 30px;
+background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+
+.team-card3 {
+/* position: absolute; */
+width: 270px;
+height: 368px;
+left: 815px;
+top: 1632px;
+margin-right: 30px;
+background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+
+.team-card4 {
+/* position: absolute; */
+width: 270px;
+height: 368px;
+left: 1115px;
+top: 1632px;
+margin-right: 30px;
+background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+
+.name {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #212121;
+
+}
+
+.profession {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #757575;
+
+}
+/* ++++++++++++++++++++++++++++++ */
+
+.address-container {
+position: absolute;
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2094px;
+background: #2F303A;
+
+}
+.address {
+margin-left: 175px; 
+list-style-type: none;
+}
+
+.logo-address {
+/* position: absolute; */
+width: 145px;
+height: 31px;
+left: 215px;
+top: 2154px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+letter-spacing: 0.03em;
+color: #2196F3;
+text-decoration:none;
+margin-left: 215px
+}
+
+.studio1 {
+color: #FFFFFF;
+}
+
+.maps {
+/* position: absolute; */
+width: 231px;
+height: 21px;
+left: 215px;
+top: 2205px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+text-decoration:none;
+
+}
+
+.address-mail {
+width: 231px;
+height: 21px;
+left: 215px;
+top: 2235px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+text-decoration:none;
+
+}
+
+.address-tell {
+width: 231px;
+height: 21px;
+left: 215px;
+top: 2265px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+text-decoration:none;
+
 }

@@ -239,16 +239,17 @@ font-size: 16px;
 line-height: 1.9;
 align-items: center;
 text-align: center;
+cursor: pointer;
 }
 
 .banner-btn:hover {
-color: var(--bs-dark);
-background: var(--bs-blue);
+color: var(--bs-white);
+background: #188CE8;
 }
 
 .banner-btn:focus {
-color: var(--bs-dark);
-background: var(--bs-blue);
+color: var(--bs-white);
+background: #188CE8;
 
 }
 /* +++++++++++++++++++ */
@@ -601,22 +602,18 @@ top: 174px; */
 list-style-type: none;
 }
 
-button:hover {
+button:hover,
+button:focus {
 color: var(--bs-white);
 background: var(--bs-blue);
 
 }
 
 
-
-
-.button:focus {
-color: var(--bs-white);
-background: var(--bs-blue);
-}
 
 button {
 border: var(--bs-ghost-white);
+background: #F5F4FA;
 border-radius: 4px;
 font-family: 'Roboto', sans-serif;
 font-style: normal;
@@ -626,6 +623,7 @@ line-height: 1.6;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--bs-dark);
+cursor: pointer;
 }
 
 .btn-active {
@@ -634,6 +632,7 @@ width: 73px;
 height: 38px;
 left: 512px;
 top: 174px; 
+
 
 }
 
